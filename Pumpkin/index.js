@@ -11,8 +11,7 @@ function toggleCutout() {
         }
     }
     
-    if (on) on = false;
-    else on = true;
+    on = !on;
 }
 
 toggleCutout();
